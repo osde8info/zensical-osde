@@ -2,9 +2,9 @@
 
 zensical-osde
 
-WARNING : this must be built locally as it breaks cloudinary/ghpages/netlify/vercel CI/CD with either "out of disk" or "out of memory" errors
+## install
 
-## Install
+WARNING : this must be built locally as it breaks cloudinary/ghpages/netlify/vercel CI/CD with either "out of disk" or "out of memory" errors
 
 ```bash
 pip install pipx
@@ -21,3 +21,8 @@ WARNING : this must be built locally as it breaks cloudinary/ghpages/netlify/ver
 - gl pages
 - [![Netlify Status](https://api.netlify.com/api/v1/badges/690446fe-d9ef-42a6-8638-5d4cb4c06fa3/deploy-status)](https://app.netlify.com/projects/osde8info/deploys)
 - vercel
+
+## uses
+
+- cloudinary
+- [giscus](https://github.com/giscus/giscus)
