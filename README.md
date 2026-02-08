@@ -2,7 +2,7 @@
 
 zensical-osde
 
-WARNING : this must be built locally as it breaks cloudinary/ghpages/netlify/vercel CI/CD eith "out of disk" or "out of memory"
+WARNING : this must be built locally as it breaks cloudinary/ghpages/netlify/vercel CI/CD with either "out of disk" or "out of memory" errors
 
 ## Install
 
