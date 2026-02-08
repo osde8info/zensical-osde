@@ -1,4 +1,4 @@
-name: zensical
+name: ghp-site
 
 on:
   push:
@@ -19,12 +19,6 @@ jobs:
     steps:
       - uses: actions/configure-pages@v5
       - uses: actions/checkout@v5
-#      - uses: actions/setup-python@v5
-#        with:
-#         python-version: 3.x
-#      - run: pip install pipx
-#      - run: pipx install zensical
-#      - run: zensical build --clean
       - uses: actions/upload-pages-artifact@v4
         with:
           path: site
