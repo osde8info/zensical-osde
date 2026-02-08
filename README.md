@@ -1,6 +1,8 @@
-# zensical-vizz
+# zensical-osde
 
-zensical-vizz
+zensical-osde
+
+WARNING : this must be built locally as it breaks cloudinary/ghpages/netlify/vercel CI/CD eith "out of disk" or "out of memory"
 
 ## Install
 
@@ -9,6 +11,8 @@ pip install pipx
 pipx install uv 
 uvx zensical build
 ```
+
+WARNING : this must be built locally as it breaks cloudinary/ghpages/netlify/vercel CI/CD 
 
 ## deployments
 
